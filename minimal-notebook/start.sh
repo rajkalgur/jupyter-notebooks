@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -x
-
+pip install "tornado<6"
 if [ $# -eq 0 ]; then
     echo "Executing the command: bash"
     exec bash
