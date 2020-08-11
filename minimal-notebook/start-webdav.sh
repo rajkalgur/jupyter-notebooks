@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -x
+pip install "tornado<6"
 
 WEBDAV_PORT=${WEBDAV_PORT:-8081}
 
