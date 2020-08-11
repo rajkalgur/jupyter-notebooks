@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -x
-
+pip install "tornado<6"
 set -eo pipefail
 
 JUPYTER_ENABLE_LAB=`echo "$JUPYTER_ENABLE_LAB" | tr '[A-Z]' '[a-z]'`

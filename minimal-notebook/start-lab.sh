@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -x
-
+pip install "tornado<6"
 set -eo pipefail
 
 if [ x"$JUPYTER_MASTER_FILES" != x"" ]; then

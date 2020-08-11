@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -x
-
+pip install "tornado<6"
 set -eo pipefail
 
 export $(cgroup-limits)
